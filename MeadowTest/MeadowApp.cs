@@ -28,8 +28,8 @@ namespace MeadowTest
 
             try
             {
-                var serial = new SAS_I2C(Device.CreateI2cBus());
-                //var serial = new SAS_Serial(Device.CreateSerialPort(Device.SerialPortNames.Com4, 115200));
+                //var serial = new SAS_I2C(Device.CreateI2cBus()); I2C NOT WORKING AT THIS TIME
+                var serial = new SAS_Serial(Device.CreateSerialPort(Device.SerialPortNames.Com4, 115200));
 
                 Console.WriteLine("Running.....");
                 var sas = new IOTSAS.SAS(serial);
