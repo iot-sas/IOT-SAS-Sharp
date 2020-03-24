@@ -2,7 +2,7 @@
 ## .NET DLL Driver for Serial/USB & Meadow  
 ### IoT Data Integrity from its origin https://iot-sas.tech
   
-![IOT-SAS Signed at Source™](https://github.com/iot-sas/IOT-SAS-Sharp/blob/master/SAS_logo.png)  
+![IOT-SAS Signed at Source™](https://github.com/iot-sas/IOT-SAS-Sharp/blob/master/SAS_logo.png | width=100)  
 
 Availabe as a nuget package.
 
